@@ -1,0 +1,10 @@
+#!/bin/bash
+cd hw
+mkdir d4 d5 d6
+cd d4
+touch 6.txt 7.txt 8.txt 9.json 10.json
+mkdir -p {4,5,6}
+ls -la
+cd d4
+mv 6.txt 7.txt /Users/sauchuk.alesia/GitHub/Git/Git/hw/d5
+
